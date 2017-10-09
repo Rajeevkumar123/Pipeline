@@ -1,4 +1,4 @@
-pipeline('python') {
+pipeline('python:2.7-slim') {
     agent any
 
     stages {
